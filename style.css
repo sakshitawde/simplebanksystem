@@ -1,0 +1,159 @@
+body{
+    padding: 0;
+    margin:0;
+    font-family: 'Open Sans', 'sans serif';
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    padding-top:5px;
+
+   background-color: blue;
+}
+
+.nav-btn{
+    display: flex;
+    align-items: flex-end;
+    gap:10px;
+    justify-content: right;
+    margin-right: 30px;
+    
+    
+
+}
+.home{
+    height:30px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid white;
+    margin:5px;
+
+}
+
+.button{
+    display:flex;
+    height:30px;
+    width: 100px;
+    cursor: pointer;
+    border: 1px solid white;
+    text-align: center;
+    padding: 0 10px;
+    background-color:rgb(125, 194, 228) ;
+    color:white;
+    font-size: 18px;
+
+
+}
+/* .view-c{
+    height:30px;
+    width: 90px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid white;
+    margin:5px;
+
+}
+.Aboutus{
+    height:30px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid white;
+    margin:5px;
+
+} */
+.logo{
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+    height: 90px;
+    margin-left: -600px;
+    margin-right: 500px;
+
+}
+.logo-img{
+    height:80px;
+    width: 80px;
+   
+}
+.nav-text{
+    height: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    font-size: 18px;
+    padding-bottom: 30px;
+    
+}
+
+.view-customers{
+    position: relative;
+    width: 100%;
+    margin:0 auto;
+   
+}
+.home-img{
+    width: 100%;
+    height:600px;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+/* .view-img{
+    position: absolute;
+    top:60px;
+    left:3%;
+    display: inline-block;
+    border:2px solid black;
+    background-color: rgba(190, 179, 179, 0.5);
+
+} */
+.user-profile{
+    position: absolute;
+    top:60px;
+    left:3%;
+    display: inline-block;
+    height:130px;
+    width: 150px;
+    
+    /* mix-blend-mode: multiply; */
+    object-fit: cover;
+    margin-left: 40px;
+
+}
+
+.customer-btn{
+    position: absolute;
+    top:200px;
+    left:5%;
+    display: inline-block;
+    
+    height:30px;
+    width: 150px;
+    cursor: pointer;
+    border: 1px solid white;
+    text-align: center;
+    padding: 0 10px;
+    background-color:rgb(220, 160, 30) ;
+    color:white;
+    font-size: 18px;
+
+}
+ .customer-btn:hover{
+    background-color: transparent;
+ }
+
+footer{
+    color: black;
+    text-align: center;
+    padding: 5px;
+ }
